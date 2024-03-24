@@ -69,5 +69,7 @@ let gameCounter = 100
 gameCounter++;
 console.log(gameCounter);
 
+// Study MDN for pre and post fix operations
+
 
 

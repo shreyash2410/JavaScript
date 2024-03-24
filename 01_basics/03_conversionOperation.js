@@ -29,6 +29,45 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+//********************** Operations *****************************/
+
+let value = 3
+let negvalue = -value
+// console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " Shreyash"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2); //O/p 12
+// console.log(1 + "2"); //O/p 12
+// console.log("1" + 2 + 2); // Convert to string as starting is in string
+// console.log(1 + 2 + "2"); // Not a good practice 
+// console.log((3+4) * 5 % 3); // Use brackets to improve the code readability
+
+// console.log(true);
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+
 

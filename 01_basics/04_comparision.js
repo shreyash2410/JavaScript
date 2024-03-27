@@ -11,6 +11,6 @@
 // console.log(undefined < 0);
 
 // ===
-// This gives strict comparision i.e it will check data types also
+// This gives strict comparision i.e it will check data types also while comparing
 
 console.log("2" === 2);

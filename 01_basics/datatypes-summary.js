@@ -37,3 +37,28 @@ const myFunction = function() {
 console.log(typeof scoreValue);
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myhobby = "Trader"
+let mycurrent = myhobby
+mycurrent = "Student"
+
+console.log(myhobby);
+console.log(mycurrent);
+
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shreyash@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
